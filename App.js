@@ -1,5 +1,4 @@
 import React from 'react';
-import {SafeAreaView} from 'react-native';
 import TESTING_MODULE1 from './CustomModule';
 
 const App = () => {
