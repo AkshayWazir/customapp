@@ -26,3 +26,9 @@ export async function reverseAsync(x) {
     return parseInt(x.toString().split('').reverse().join(''));
   }
 }
+
+export function makeApiUpdates(items, callbacks) {
+  for (let i = 0; i < items.length; i++) {
+    callbacks(items[i]);
+  }
+}

@@ -5757,6 +5757,11 @@
     "@types/geojson" "^7946.0.7"
     "deprecated-react-native-prop-types" "^2.3.0"
 
+"react-native-vision-camera@^2.13.5":
+  "integrity" "sha512-qhOqS+DuKkEb6nlgxKT+hCJTTOPCAtXQ5PdQXd3v85qENBn3K08RtnBz1VOWSeKsj+B52KjA5rcDo50BaaE33A=="
+  "resolved" "https://registry.npmjs.org/react-native-vision-camera/-/react-native-vision-camera-2.13.5.tgz"
+  "version" "2.13.5"
+
 "react-native-webview@^11.22.3":
   "integrity" "sha512-+JUgOZUN1l8PTbuOXv+wl+PN/YkGwj3qPCqVt5ucmck1PTSNKWvFUBDU7Rh5wmqy+grcyGgEB+8/+RIRJG0FIA=="
   "resolved" "https://registry.npmjs.org/react-native-webview/-/react-native-webview-11.22.3.tgz"

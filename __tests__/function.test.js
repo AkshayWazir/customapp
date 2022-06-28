@@ -39,6 +39,12 @@ test('Revers number async', () => {
   //   expect(await reverseAsync(-74584)).toBe(-48547);
 });
 
+test('Mock Test', () => {
+  const mock = jest.fn();
+  let result = mock(4);
+  expect(result).toBeUndefined();
+});
+
 afterEach(() => {
   // * Cleanup
 });
