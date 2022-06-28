@@ -1,10 +1,13 @@
 import React from 'react';
-import TESTING_MODULE1 from './CustomModule';
+import {View} from 'react-native';
+// import {WebView} from 'react-native-webview';
+// import {enableLatestRenderer} from 'react-native-maps';
+
+// enableLatestRenderer();
 
 const App = () => {
-  console.log(TESTING_MODULE1);
-  TESTING_MODULE1.show();
-  return <></>;
+  return <View></View>;
+  // return <WebView source={{uri: 'https://reactnative.dev/'}} />;
 };
 
 export default App;

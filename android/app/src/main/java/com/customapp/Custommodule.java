@@ -9,8 +9,6 @@ import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
 import com.facebook.react.bridge.ReactMethod;
 
-
-
 public class Custommodule extends ReactContextBaseJavaModule {
     private static ReactApplicationContext reactContext;
 
@@ -20,8 +18,8 @@ public class Custommodule extends ReactContextBaseJavaModule {
     }
 
     @ReactMethod
-    public void show() {
-        Toast.makeText(reactContext, "hello World !!", Toast.LENGTH_LONG ).show();
+    public void show(String messageString) {
+        Toast.makeText(reactContext, messageString, Toast.LENGTH_LONG).show();
     }
 
     @NonNull
